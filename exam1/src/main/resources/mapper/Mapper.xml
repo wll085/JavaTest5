@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hand.exam1.mapper.UserMapper">
+   <select id="list" resultType="com.hand.exam1.entity.Film">
+       select * from film limit #{page},#{pageSize} order by film_id ASC ;
+   </select>
+    <insert id="insertFilm">
+
+    </insert>
+    <update id="update">
+
+    </update>
+    <delete id="delete">
+
+    </delete>
+
+</mapper>
